@@ -120,13 +120,16 @@ h6 {
 .accTitle::after {
 	top: 8px;
 }
+
 .accTitle::before {
 	bottom: 8px;
 }
+
 .accTitle.active::after{
 	top: initial;
 	transform: rotate(45deg);
 }
+
 .accTitle.active::before {
 	bottom: initial;
 	transform: rotate(-45deg);
@@ -139,6 +142,7 @@ h6 {
 	visibility: hidden;
 	transition: all 0.3s ease;
 }
+
 .accBody.open {
 	padding: 15px;
 	height: auto;
